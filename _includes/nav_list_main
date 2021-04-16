@@ -11,9 +11,15 @@
           💻 Total Posts ({{sum}}) 
       </li>
       <li>
-      <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+        <span class="nav__sub-title">Algorithm(JS)</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "algotithm_basic" %}
+                        <li><a href="categories/algotithm_basic" class="">Basic ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul> 
         <span class="nav__sub-title">HTML & CSS</span>
-            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "html" %}
