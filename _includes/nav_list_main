@@ -14,8 +14,8 @@
         <span class="nav__sub-title">Algorithm(JS)</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "algotithmBasic" %}
-                        <li><a href="/categories/algotithmBasic" class="">Basic ({{category[1].size}})</a></li>
+                    {% if category[0] == "html" %}
+                        <li><a href="/categories/html" class="">Basic ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul> 
