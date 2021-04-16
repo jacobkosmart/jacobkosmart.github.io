@@ -1,7 +1,7 @@
 ---
 title: "Basic"
 layout: archive
-permalink: categories/algotithm_basic
+permalink: categories/algotithmBasic
 author_profile: true
 sidebar_main: true
 ---

@@ -3,9 +3,12 @@ title:  "01_세 수 중 최솟값"
 excerpt: "Algorithm (JS)_01_Basic"
 
 categories:
-  - algotithm_basic
+  - algotithmBasic
 tags:
   - [Algorithm, JavaScript]
+
+toc: true
+toc_sticky: true
 ---
 
 # 세 수 중 최솟값
