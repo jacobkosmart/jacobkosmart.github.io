@@ -2,8 +2,8 @@
 main:
   - title: "Home"
     url: https://jacobkosmart.github.io/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Category"
+    url: https://jacobkosmart.github.io/categories/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
