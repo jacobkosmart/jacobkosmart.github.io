@@ -1,7 +1,7 @@
 ---
 title: "Algorithm (JS) Basic"
 layout: archive
-permalink: /categories/algorithmBasic
+permalink: categories/algorithmBasic
 author_profile: true
 sidebar_main: true
 ---
