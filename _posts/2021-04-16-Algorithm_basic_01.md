@@ -3,7 +3,7 @@ title:  "01_세 수 중 최솟값"
 excerpt: "Algorithm (JS)_01_Basic"
 
 categories:
-  - Algorithm Basic
+  - Algorithm_Basic
 tags:
   - [Algorithm, JavaScript]
 
