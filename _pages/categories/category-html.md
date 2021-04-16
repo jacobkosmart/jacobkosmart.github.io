@@ -1,7 +1,7 @@
 ---
 title: "HTML"
 layout: archive
-permalink: categories/html&css
+permalink: categories/cpp
 author_profile: true
 sidebar_main: true
 ---
