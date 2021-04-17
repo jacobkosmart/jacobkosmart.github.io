@@ -61,3 +61,9 @@ toc_sticky: true
   </body>
 </html>
 ```
+
+---
+
+👉 [다른 Algorithm (JS)](https://jacobkosmart.github.io/categories/Algorithm_Basic) 으로 이동 
+
+---

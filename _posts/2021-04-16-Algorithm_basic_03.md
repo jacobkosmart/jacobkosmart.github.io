@@ -66,3 +66,9 @@ Math 함수에서 ceil 올림계산자, 예)2.344 -> 3
     </body>
 </html>
 ```
+
+---
+
+👉 [다른 Algorithm (JS)](https://jacobkosmart.github.io/categories/Algorithm_Basic) 으로 이동 
+
+---
