@@ -22,8 +22,8 @@
         <span class="nav__sub-title">JavaScript</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm_Basic" %}
-                        <li><a href="/categories/Algorithm_Basic" class="">Basic ({{category[1].size}})</a></li>
+                    {% if category[0] == "JS_basic" %}
+                        <li><a href="/categories/JS_basic" class="">Basic ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul> 
