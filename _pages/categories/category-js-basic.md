@@ -1,7 +1,7 @@
 ---
 title: "JS Basic"
 layout: archive
-permalink: categories/JS_Basic
+permalink: categories/Algorithm_Basic
 author_profile: true
 sidebar_main: true
 ---
