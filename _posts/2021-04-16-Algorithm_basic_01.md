@@ -1,6 +1,6 @@
 ---
-title:  "01_세 수 중 최솟값"
-excerpt: "Algorithm (JS)_01_Basic"
+title:  "Algorithm (JS) - 01.세 수 중 최솟값"
+excerpt: "Algorithm (JS)_Basic"
 
 categories:
   - Algorithm_Basic
