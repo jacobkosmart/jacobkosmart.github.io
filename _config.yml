@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Jacob"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/jacob_avatar1.gif" # path of avatar image, e.g. "/assets/images/bio-photo.jpg
   bio              : "Everything is Awesome"
   location         : "South Korea"
   email            : 
