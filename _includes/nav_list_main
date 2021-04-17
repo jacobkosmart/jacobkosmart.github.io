@@ -19,18 +19,11 @@
                     {% endif %}
                 {% endfor %}
             </ul> 
-        <span class="nav__sub-title">HTML & CSS</span>
+        <span class="nav__sub-title">JavaScript & CSS</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "html" %}
-                        <li><a href="/categories/html" class="">HTML ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul> 
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "html" %}
-                        <li><a href="/categories/html" class="">CSS ({{category[1].size}})</a></li>
+                    {% if category[0] == "JS_basic" %}
+                        <li><a href="/categories/JS_basic" class="">Basic ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul> 
