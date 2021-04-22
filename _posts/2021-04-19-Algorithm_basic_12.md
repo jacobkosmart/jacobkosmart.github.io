@@ -39,6 +39,8 @@ ITISTIMETOSTUDY
 
 
 - 일반적인 풀이
+
+
 ```html
 <head>
   <meta charset="UTF-8">
@@ -63,6 +65,8 @@ ITISTIMETOSTUDY
 ```
 
 - 2번째 풀이  ASCII code로 풀이
+
+
 ```html
 <html>
 

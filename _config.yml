@@ -278,7 +278,7 @@ defaults:
       classes: wide
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
       related: true
       mathjax: true
