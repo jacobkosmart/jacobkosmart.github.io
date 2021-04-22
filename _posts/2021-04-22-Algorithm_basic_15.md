@@ -41,8 +41,12 @@ oo
 substring() -> string을 추출하는 함수
 substring(시작구간index, 끝나는구간index + 1) -> 글자가 홀수 일때..  
 substring(시작구간index - 1, 끝나는구간index + 1) -> 글자가 짝수 일때..   
-substr(시작구간index, 갯수) 
+substr(시작구간index, 갯수)
+
+ 
 - `substring()` 사용
+
+
 ```html
 <head>
   <meta charset="UTF-8">
@@ -62,7 +66,10 @@ substr(시작구간index, 갯수)
   </script>
 </body>
 ```
+
+
 - `substr()` 사용 -> **이걸 자주사용하기~~**
+
 
 ```html
 <head>
