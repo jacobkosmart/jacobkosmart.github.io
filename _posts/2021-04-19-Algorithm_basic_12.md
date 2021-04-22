@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 12.대문자로 통일"
+title:  "12.대문자로 통일"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

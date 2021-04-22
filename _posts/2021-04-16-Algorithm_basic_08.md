@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 08.일곱 난쟁이"
+title:  "08.일곱 난쟁이"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

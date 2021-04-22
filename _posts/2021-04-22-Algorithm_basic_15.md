@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 15.가운데 문자 출력"
+title:  "15.가운데 문자 출력"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 07.10부제"
+title:  "07.10부제"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 04.1부터 N까지의 합"
+title:  "04.1부터 N까지의 합"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

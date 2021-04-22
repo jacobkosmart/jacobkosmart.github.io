@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 06.홀수"
+title:  "06.홀수"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

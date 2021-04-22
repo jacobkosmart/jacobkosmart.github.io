@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 01.세 수 중 최솟값"
+title:  "01.세 수 중 최솟값"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

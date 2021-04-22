@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 03.연필 개수"
+title:  "03.연필 개수"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

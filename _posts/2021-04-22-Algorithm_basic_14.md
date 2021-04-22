@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 14.가장 긴 문자열"
+title:  "14.가장 긴 문자열"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

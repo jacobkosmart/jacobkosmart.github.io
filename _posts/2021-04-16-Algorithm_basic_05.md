@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 05.최솟값 구하기"
+title:  "05.최솟값 구하기"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

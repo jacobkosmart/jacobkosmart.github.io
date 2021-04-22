@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 10.문자 찾기"
+title:  "10.문자 찾기"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

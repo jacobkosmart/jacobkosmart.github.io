@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 13.대소문자 변환"
+title:  "13.대소문자 변환"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

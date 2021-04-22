@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 09.A를 #으로"
+title:  "09.A를 #으로"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

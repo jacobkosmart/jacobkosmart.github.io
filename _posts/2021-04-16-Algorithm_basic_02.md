@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 02.삼각형 판별하기"
+title:  "02.삼각형 판별하기"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:

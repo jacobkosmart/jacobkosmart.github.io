@@ -1,5 +1,5 @@
 ---
-title:  "Algorithm (JS) - 16.중복 문자 제거"
+title:  "16.중복 문자 제거"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:
