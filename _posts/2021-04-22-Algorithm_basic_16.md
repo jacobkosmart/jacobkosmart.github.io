@@ -37,6 +37,8 @@ kset
 `indexOf()` 로 발견하지 못한 string은 -1 로 출력됨.  
 `for loop`으로 문자열 탐색한다음에 `s.indexOf(s[i])`로 검색된 중복된 index를 제거해서 return
 
+
+
 ```html
 <head>
   <meta charset="UTF-8">
@@ -57,7 +59,10 @@ kset
 </body>
 ```
 
+
 - 이전문제 응용 (indexOf()를 사용해서 k문자가 몇개인지 카운트 하기) 
+
+
 ```html
 <head>
   <meta charset="UTF-8">
