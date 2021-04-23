@@ -1,5 +1,5 @@
 ---
-title:  "17.중복 단어 제거 123"
+title:  "01.Data"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:
