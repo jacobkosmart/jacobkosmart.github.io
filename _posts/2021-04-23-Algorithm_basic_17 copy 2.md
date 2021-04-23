@@ -1,11 +1,11 @@
 ---
-title:  "01. Data"
+title:  "18.중복 단어 제거 22"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:
   - JavaScript
 tags:
-  - [JavaScript, Data]
+  - [Algorithm, JavaScript, basic]
 
 toc: true
 toc_sticky: true

@@ -1,11 +1,11 @@
 ---
-title:  "02. Variable"
+title:  "17.중복 단어 제거 11"
 excerpt: "Algorithm (JS)_Basic"
 
 categories:
   - JavaScript
 tags:
-  - [Algorithm, JavaScript, Variable]
+  - [Algorithm, JavaScript, basic]
 
 toc: true
 toc_sticky: true
