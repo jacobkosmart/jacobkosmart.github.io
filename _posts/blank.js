@@ -1,11 +1,21 @@
-const userAge = {
-  // key: value
-  name: 'Jacob',
-  age: 80,
-}
-const userEmail = {
-  name: 'Jacob',
-  email: 'jacobkosmart@gmail.com'
-}
+// 참조형 데이터는 보이는 모양이 같아도 메모리 저장된 주소를 비교 하기 때문에 똑같은 값이라도 다를 수 있음.
+// 메모리 참조 주소만 옴겨 간다는것임. 
+let a = { k: 1 }
+let b = { k: 1 }
+console.log(a, b, a === b) // 메모리 값이 다르기 때문에 value 가 같다고 해도 false 됨 -> {k: 1}, {k: 1}, false
 
 
+a.k = 7
+b = a // 이렇게 할당 연산자를 변경하게 되면 데이터에 혼란이 됨.
+console.log(a, b, a === b) // 데이터가 7로 덮어 씌워지고 같은 메모리 값에 저장되어 true -> {k: 7}, {k: 7}, true
+
+a.k = 2
+console.log(a, b, a === b) // 데이터가 2로 덮어 씌워지고 같은 메모리 값에 저장되어 true -> {k: 2}, {k: 2}, true
+
+let c = b
+console.log(a, b, c, a === c) // 변수 c 추가 데이터가 9로 다 덮어 씌워짐. -> {k: 2}, {k: 2}, {k: 2}, true
+
+a.k = 9 
+console.log(a, b, c, a === c) // 데이터가 9로 덮어 씌워지고 같은 메모리 값에 저장되어 true -> {k: 9}, {k: 9}, {k: 9}, true
+
+// 참조형 데이터 처럼 데이터를 변경 할경우, 복사 (얕은복사, 깊은 복사)를 통해서 진행해야함.
