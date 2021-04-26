@@ -21,7 +21,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm_Advance" %}
-                        <li><a href="/categories/Algorithm_Advance" class="h4">Advance ({{category[1].size}})</a></li>
+                        <li><a href="/categories/Algorithm_Advance" class="">Advance ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul> 
