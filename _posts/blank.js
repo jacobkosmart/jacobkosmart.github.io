@@ -1,13 +1,14 @@
-let num = 3; 
-switch(num % 2) {
-  case 0: 
-    alert("해당 값은 짝수!"); 
-    break; 
-  case 1: 
-    alert("해당 값은 홀수!");
-    break; 
-  default: alert("잘못된 입력 값!"); 
-  break; 
+for (let i = 1; i <= 4; i++) {
+  for (let j = 1; j <= 4; j++) {
+    if ((j % 2) == 0) 
+    continue; 
+    console.log("i : " + i + ", j : " + j); 
+  } 
 }
+
+
+
+
+
 
 
