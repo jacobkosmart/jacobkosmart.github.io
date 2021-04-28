@@ -71,7 +71,9 @@ YES
 
 
 
-- 2번 방법 (split, reverse 사용해서 검색)
+- 2번 방법 (split, reverse 사용해서 검색)  
+
+
 ```html
 <head>
   <meta charset="UTF-8">
