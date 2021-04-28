@@ -42,7 +42,9 @@ YES
 ![image](https://user-images.githubusercontent.com/28912774/116328169-5fc44a80-a803-11eb-86c4-44deb8009149.png)
 
 
-- 1번 방법 (for 문 검색)
+- 1번 방법 (for 문 검색)     
+
+
 ```html
 <head>
   <meta charset="UTF-8">
@@ -65,8 +67,9 @@ YES
     console.log(solution(str));
   </script>
 </body>
+```    
 
-```  
+
 
 - 2번 방법 (split, reverse 사용해서 검색)
 ```html
