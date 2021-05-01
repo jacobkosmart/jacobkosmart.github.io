@@ -97,7 +97,7 @@ author:
   name             : "Jacob"
   avatar           : "/assets/images/Jacob_avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg
   bio              : "Everything is Awesome 👍"
-  location         : "🇰🇷 South Korea"
+  location         : "South Korea"
   email            : 
   links:
     - label: "Email"
