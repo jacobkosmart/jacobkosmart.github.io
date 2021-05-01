@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jacob's DevLog: Today I Learned"
+title                    : "Jacob's DevLog: Today I Learned ✍️"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "TAEHYUN JACOB KO"
@@ -96,8 +96,8 @@ analytics:
 author:
   name             : "Jacob"
   avatar           : "/assets/images/Jacob_avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg
-  bio              : "Everything is Awesome"
-  location         : "South Korea"
+  bio              : "Everything is Awesome 👍"
+  location         : "🇰🇷 South Korea"
   email            : 
   links:
     - label: "Email"
