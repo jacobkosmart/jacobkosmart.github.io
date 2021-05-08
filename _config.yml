@@ -297,4 +297,14 @@ defaults:
       related: false
       sidebar_main: true
 
-
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
+      related: true
+      sidebar_main: true
