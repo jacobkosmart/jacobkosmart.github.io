@@ -1,10 +1,8 @@
 ---
 title: Portfolio
+layout: collection
 permalink: /portfolio/
-layout: archive
-author_profile: true
-sidebar_main: true
-share: false
+collection: portfolio
 entries_layout: grid
 ---
 
