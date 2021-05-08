@@ -137,8 +137,9 @@ a {
   }
 
   &:hover {
-    color: $link-color-hover;
+    color: #0645AD;
     outline: 0;
+    text-decoration: underline;
   }
 }
 
