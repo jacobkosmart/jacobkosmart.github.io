@@ -1,10 +1,13 @@
 ---
 title: Portfolio
-layout: collection
 permalink: /portfolio/
-collection: portfolio
-entries_layout: grid
-classes: wide
+layout: single
+author_profile: true
+sidebar_main: true
+share: false
 ---
 
 Sample document listing for the collection `_portfolio`.
+
+
+Test Jacob
