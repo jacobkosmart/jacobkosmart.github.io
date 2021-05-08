@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 permalink: /portfolio/
-layout: archive
+layout: splash
 author_profile: true
 sidebar_main: true
 share: false

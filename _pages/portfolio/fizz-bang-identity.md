@@ -1,6 +1,8 @@
 ---
 title: "Fizz Bang Identity"
 excerpt: "Fizz Bang design system including logo mark, website design, and branding applications."
+categories:
+  - JavaScript
 header:
   image: /assets/images/unsplash-gallery-image-2.jpg
   teaser: assets/images/unsplash-gallery-image-2-th.jpg
