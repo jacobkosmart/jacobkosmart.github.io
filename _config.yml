@@ -311,3 +311,4 @@ defaults:
       author_profile: true
       share: false
       comments: false
+      sidebar_main: true
