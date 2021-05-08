@@ -307,6 +307,7 @@ defaults:
       type: portfolio
     values:
       layout: single
+      classes: wide
       author_profile: true
       share: false
       comments: false
