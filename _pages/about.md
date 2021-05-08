@@ -16,7 +16,7 @@ share: false
 
 
 ## 📞 Contact & Channel 
-`E-mail` : jacobkosmart@gmail.com  
+`E-mail` : <mailto:jacobkosmart@gmail.com>  
 `Github` : <https://github.com/jacobkosmart>  
 `blog` : <https://jacobkosmart.github.io/>
 
