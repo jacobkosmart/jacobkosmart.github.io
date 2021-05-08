@@ -4,6 +4,7 @@ excerpt: "Fizz Bang design system including logo mark, website design, and brand
 header:
   image: /assets/images/unsplash-gallery-image-2.jpg
   teaser: assets/images/unsplash-gallery-image-2-th.jpg
+
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250
