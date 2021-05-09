@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jacob's DevLog: Today I Learned ✍️"
+title                    : "Jacob's DevLog ✍️"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "TAEHYUN JACOB KO"
@@ -116,8 +116,8 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jacobkosmart"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com"
 
 # Site Footer
 footer:
