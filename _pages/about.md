@@ -21,6 +21,6 @@ share: false
 `Youtube` : <https://www.youtube.com/channel/UCXXutxMvNx4EKXB-uQnm2oQ>
 
 
-## 🖥 프로젝트
+## 🖥 Portfolio
 
-[포트폴리오 바로가기..](/portfolio) 
+👉 [포트폴리오 바로가기..](/portfolio) 
