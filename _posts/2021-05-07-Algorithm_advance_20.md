@@ -1,5 +1,5 @@
 ---
-title:  "20.연속 부분수열 2 - 투 포인터"
+title:  "20.연속 부분수열 1 - 투 포인터"
 excerpt: "Algorithm (JS)_Advance"
 
 categories:
