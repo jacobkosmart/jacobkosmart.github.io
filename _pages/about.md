@@ -18,7 +18,7 @@ share: false
 ## 📞 Contact & Channel 
 `E-mail` : <mailto:jacobkosmart@gmail.com>  
 `Github` : <https://github.com/jacobkosmart>  
-`Youtube` : <https://www.youtube.com/channel/UCXXutxMvNx4EKXB-uQnm2oQ>
+`Youtube` : [Jacob Coding Youtube Channel](https://www.youtube.com/channel/UCXXutxMvNx4EKXB-uQnm2oQ)
 
 
 ## 🖥 Portfolio
