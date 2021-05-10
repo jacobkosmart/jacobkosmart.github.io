@@ -18,7 +18,7 @@ share: false
 ## 📞 Contact & Channel 
 `E-mail` : <mailto:jacobkosmart@gmail.com>  
 `Github` : <https://github.com/jacobkosmart>  
-`blog` : <https://jacobkosmart.github.io/>
+`Youtube` : <https://www.youtube.com/channel/UCXXutxMvNx4EKXB-uQnm2oQ>
 
 
 ## 🖥 프로젝트
