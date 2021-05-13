@@ -65,7 +65,7 @@ moves 배열 각 원소들의 값은 1 이상이며 board 배열의 가로 크�
 
 ##  📌 풀이
 
-![11](https://user-images.githubusercontent.com/28912774/118061939-e9157880-b3d0-11eb-8f8b-def14219a899.jpg)
+![11](https://user-images.githubusercontent.com/28912774/118067384-680fae80-b3db-11eb-9d5d-be60025e1d69.jpg)
 
 
 ![22](https://user-images.githubusercontent.com/28912774/118061942-ea46a580-b3d0-11eb-8be7-d26808fb6439.jpg)
