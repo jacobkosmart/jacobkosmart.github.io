@@ -28,13 +28,6 @@
         <span class="nav__sub-title">Front-end</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "HTML" %}
-                        <li><a href="/categories/HTML" class="">HTML ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul> 
-            <ul>
-                {% for category in site.categories %}
                     {% if category[0] == "CSS" %}
                         <li><a href="/categories/CSS" class="">CSS ({{category[1].size}})</a></li>
                     {% endif %}
@@ -51,41 +44,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "TypeScript" %}
                         <li><a href="/categories/TypeScript" class="">TypeScript ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul> 
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Bundler" %}
-                        <li><a href="/categories/Bundler" class="">Bundler ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul> 
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Vue" %}
-                        <li><a href="/categories/Vue" class="">Vue.js ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul> 
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "React" %}
-                        <li><a href="/categories/React" class="">React ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul> 
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "GraphQL" %}
-                        <li><a href="/categories/GraphQL" class="">GraphQL ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul> 
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Svelte" %}
-                        <li><a href="/categories/Svelte" class="">Svelte ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul> 
