@@ -20,7 +20,7 @@ last_modified_at:
 
 - 2021년 현재 기준 최신 버전 v5.0 가 release 되었습니다. (tree shaking 기능 추가됨)
 
-> 공식 사이트 및 설치 방법 - [https://getbootstrap.com/docs/5.0/getting-started/introduction/](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+> 공식 사이트 및 설치 방법 - [https://getbootstrap.com/docs/5.0/getting-started/introduction/](https://getbootstrap.com/docs/5.0/getting-started/introduction/){:target="\_blank"}
 
 - Bootstrap 의 많은 요소들은 동적으로 움직이는 효과도 많기 때문에 JS code 및 Popper library 도 함께 설치 해줘야 합니다.
 
