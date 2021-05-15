@@ -32,7 +32,7 @@ last_modified_at:
 
 ## 2.버튼과 버튼 그룹
 
-> [button 관련..](https://getbootstrap.com/docs/5.0/components/buttons/)
+> [button 관련..](https://getbootstrap.com/docs/5.0/components/buttons/){:target="\_blank"}
 
 - Bootstrap 의 가장 자주 쓰이는 버튼 기능 입니다.
 
@@ -63,7 +63,7 @@ last_modified_at:
 
 ## 3.드롭다운과 리스트
 
-> [Dropdowns 자세히 보기](https://getbootstrap.com/docs/5.0/components/dropdowns/)
+> [Dropdowns 자세히 보기](https://getbootstrap.com/docs/5.0/components/dropdowns/){:target="\_blank"}
 
 ```html
 <div class="dropdown">
@@ -88,7 +88,7 @@ last_modified_at:
 
 ![image](https://user-images.githubusercontent.com/28912774/118350757-756f9900-b593-11eb-8340-99b78aec88d5.png)
 
-> [listgroup 자세히 보기](https://getbootstrap.com/docs/5.0/components/list-group/)
+> [listgroup 자세히 보기](https://getbootstrap.com/docs/5.0/components/list-group/){:target="\_blank"}
 
 ```html
 <ul class="list-group">
@@ -104,7 +104,7 @@ last_modified_at:
 
 ## 4.양식(Forms)
 
-> [Forms 자세히 보기..](https://getbootstrap.com/docs/5.0/forms/overview/)
+> [Forms 자세히 보기..](https://getbootstrap.com/docs/5.0/forms/overview/){:target="\_blank"}
 
 ```html
 <form>
@@ -138,7 +138,7 @@ last_modified_at:
 
 - 추가로 창이 열리면서 정보가 보여지는 기능을 말합니다
 
-> [Modal 자세히 보기..](https://getbootstrap.com/docs/5.0/components/modal/)
+> [Modal 자세히 보기..](https://getbootstrap.com/docs/5.0/components/modal/){:target="\_blank"}
 
 - Modal 에는 JS 와 DOM 연동하여 다양한 함수를 동적으로 사용할 수 있습니다.
 
@@ -244,7 +244,7 @@ modalEl.addEventListener("shown.bs.modal", function () {
 
 ## 6.툴팁(Tooltips)
 
-> [Tooltips 자세히 보기...](https://getbootstrap.com/docs/5.0/components/tooltips/)
+> [Tooltips 자세히 보기...](https://getbootstrap.com/docs/5.0/components/tooltips/){:target="\_blank"}
 
 - 버튼을 hover 하게 되면 간단하게 말풍선 처럼 text 를 표시 할 수 있는 기능을 Tooltip 이라고 합니다.
 
@@ -471,7 +471,7 @@ const dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
 
   - 개별 사용시, popper.js 에 의존하는 기능이 많기 때문에 별도 npm 설치를 해줘야 작동 됨
 
-  - Bootstrap official JS 부분에서 via JS 에 대한 설명이 따로 없을때는, 초기화를 안해도 사용됨 (예: button, spinner) [자세히보기..](https://getbootstrap.com/docs/5.0/customize/optimize/#lean-javascript)
+  - Bootstrap official JS 부분에서 via JS 에 대한 설명이 따로 없을때는, 초기화를 안해도 사용됨 (예: button, spinner) [자세히보기..](https://getbootstrap.com/docs/5.0/customize/optimize/#lean-javascript){:target="\_blank"}
 
 ### 🔷 예2: modal 최적화 하기
 
@@ -533,4 +533,4 @@ new Modal(document.getElementById("exampleModal"), {
 
 ## Reference
 
-- Bootstrap Official site - [https://getbootstrap.com/docs/5.0/getting-started/introduction/](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- Bootstrap Official site - [https://getbootstrap.com/docs/5.0/getting-started/introduction/](https://getbootstrap.com/docs/5.0/getting-started/introduction/){:target="\_blank"}
