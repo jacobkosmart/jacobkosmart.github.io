@@ -47,6 +47,13 @@
                     {% endif %}
                 {% endfor %}
             </ul> 
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Bundler" %}
+                        <li><a href="/categories/Bundler" class="">Bundler ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul> 
         <span class="nav__sub-title">Tools & Tips</span>
             <ul>
                 {% for category in site.categories %}

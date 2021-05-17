@@ -70,9 +70,9 @@ console.log(queue);
 
 ![image](https://user-images.githubusercontent.com/28912774/118416935-eececf00-b6ec-11eb-9eab-84cb622f3a39.png)
 
-- Array.shift() 알아두기..
+- `Array.shift()` 알아두기..
 
-  - .shift() 는 array 에서 첫번째를 지우는것이 shift 입니다.
+  - `.shift()` 는 array 에서 첫번째를 지우는것이 shift 입니다.
 
 ![image](https://user-images.githubusercontent.com/28912774/118417335-9bf61700-b6ee-11eb-82d2-08aad87d06ea.png)
 
