@@ -45,7 +45,7 @@ N개이 숫자가 입력되면 오름차순으로 정렬하여 출력하는 프�
 
 ## 📌 풀이
 
-![11](https://user-images.githubusercontent.com/28912774/118573649-f1e5c000-b7bd-11eb-84ab-fae8417e0b69.jpg)
+![11](https://user-images.githubusercontent.com/28912774/118575205-dfb95100-b7c0-11eb-85e0-d96088091054.jpg)
 
 ![22](https://user-images.githubusercontent.com/28912774/118573650-f316ed00-b7bd-11eb-8faf-c365e349d1fd.jpg)
 
