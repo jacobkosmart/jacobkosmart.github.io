@@ -54,6 +54,13 @@
                     {% endif %}
                 {% endfor %}
             </ul> 
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Vue" %}
+                        <li><a href="/categories/Vue" class="">Vue.js ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul> 
         <span class="nav__sub-title">Tools & Tips</span>
             <ul>
                 {% for category in site.categories %}
