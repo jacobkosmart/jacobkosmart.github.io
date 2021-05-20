@@ -19,7 +19,7 @@ locale: "en-US"
 title: "Jacob's DevLog ✍️"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
-name: "TAEHYUN JACOB KO"
+name: "Jacob Ko"
 description: "An amazing website."
 url: "https://jacobko.info"
 baseurl: # the subpath of your site, e.g. "/blog"
@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name: "Jacob"
+  name: "Jacob Ko"
   avatar: "/assets/images/Jacob_avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg
   bio: "Everything is Awesome 👍"
   location: "South Korea"
