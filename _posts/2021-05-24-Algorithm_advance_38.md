@@ -1,4 +1,18 @@
-# 장난꾸러기 현수 - 정렬
+---
+title: "38.장난꾸러기 현수 - 정렬"
+excerpt: "Algorithm (JS)_Advance"
+
+categories:
+  - Algorithm_Advance
+tags:
+  - [Algorithm, JavaScript]
+
+toc: true
+toc_sticky: true
+---
+
+---
+
 
 ##  🔍 문제 
 새 학기가 시작되었습니다. 현수는 새 짝꿍을 만나 너무 신이 났습니다.   

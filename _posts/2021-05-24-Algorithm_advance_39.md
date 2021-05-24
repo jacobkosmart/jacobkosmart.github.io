@@ -1,4 +1,19 @@
-# 좌표 정렬
+---
+title: "39.좌표 정렬"
+excerpt: "Algorithm (JS)_Advance"
+
+categories:
+  - Algorithm_Advance
+tags:
+  - [Algorithm, JavaScript]
+
+toc: true
+toc_sticky: true
+---
+
+---
+
+
 
 ##  🔍 문제 
 N개의 평면상의 좌표(x, y)가 주어지면 모든 좌표를 오름차순으로 정렬하는 프로그램을 작성하세요.   
