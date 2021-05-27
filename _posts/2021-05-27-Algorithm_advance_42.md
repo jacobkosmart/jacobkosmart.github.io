@@ -1,5 +1,5 @@
 ---
-title: "41.이분 검색"
+title: "42.이분 검색"
 excerpt: "Algorithm (JS)_Advance"
 
 categories:
