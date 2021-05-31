@@ -1,5 +1,5 @@
 ---
-title: "43.뮤직 비디오 (결정 알고리즘)"
+title: "43.뮤직 비디오 - 결정 알고리즘"
 excerpt: "Algorithm (JS)_Advance"
 
 categories:
