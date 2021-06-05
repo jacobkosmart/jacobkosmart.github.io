@@ -17,42 +17,55 @@ gallery:
     alt: "randomRecipe"
 ---
 
-# 🎁 Vanilla-JS Projects
 
-
-## 1. Countdown App
+# - Countdown App
 [![btn](https://user-images.githubusercontent.com/28912774/118504277-55440380-b766-11eb-8730-3d6978b073c4.png)](https://countdown.jacobko.info/){:target="\_blank"}
 
 
-## 2. Quiz App
+# - Quiz App
 [![btn](https://user-images.githubusercontent.com/28912774/118504277-55440380-b766-11eb-8730-3d6978b073c4.png)](https://quiz1.jacobko.info/){:target="\_blank"}
 
-## 3. Random Recipe App
+# - Random Recipe App
 [![btn](https://user-images.githubusercontent.com/28912774/118504277-55440380-b766-11eb-8730-3d6978b073c4.png)](https://recipe.jacobko.info/){:target="\_blank"}
 
-## 💻 1.프로젝트 소개
+# 💻 1.프로젝트 소개
 
-### ⌨️ 사용기술 및 언어
+## ⌨️ 사용기술 및 언어
 
+- Vanilla JavaScript
 - HTML
 - CSS
-- JavaScript
 
-### ⏰ 개발 기간
+## ⏰ 개발 기간
 
-2021-04-01 ~ 21-04-12
+2021-05-08 ~ 21-05-28
 
-## 🗒 2.프로젝트 내용
+# 🗒 2.프로젝트 내용
 
-### 주요 기능
+## 주요 기능
 
-- Drop Down 메뉴
+### - Countdown
 
-- 수직슬라이드 (Swiper)
+- 현재 시간 부터 올해 남은 시간 까지 날짜, 시간, 분, 초 단위로 나타냄
 
-- 유튜브 영상배경 (Youtube ifram API)
+### - Quiz
 
-- 사용된 JS 플러그인 : GSAP, Swiper, ScrollMagic, Lodash
+- 객관식 5문제를 하나씩 풀어가며 최종으로 몇개를 맞추었는지 스코어 계산 출력
+
+- 처음으로 돌아갈 수 있는 버트 클릭 시, 맨 처음 페이지로 돌아감
+
+### - Random Recipe
+
+- Mobile frame 에 맞게 app 제작
+
+- The meal API 비동기 연결하여 random recipe 출력
+
+- 좋아요 버튼을 누르면 favorite meals 에 추가
+
+- recipe 클릭 시, 상세 정보 출력 (youtube, ingredients, details)
+
+- 검색창에 (예: rice) 입력 시, 해당되는 recipe 검색됨
+
 
 {% include gallery %}
 
@@ -60,32 +73,35 @@ gallery:
 
 ### 어려웠던 점
 
-FE 를 배우면서 HTML, CSS, JavaScipt 기본 개념으로 시작한 첫번째 프로젝트 입니다.
+JavaScript 의 알아야 할점들이 많았습니다. 비록 간단한 App 이지만, library의 도움없이 Vanilla JS 로만 만들었기 때문에 많은 function 을 작성하는것에서 어려웠습니다. 물론 참조되는 유용한 자료들 덕분에 할 수 있었습니다.
 
-솔직히, CSS 에서 box model 및 배치에서 많은 시간을 공부 해야 했고, JS 에서도 라이브러리 사용 및 DOM 에 대해서 개념 잡기가 어려웠습니다.
+특히, Random Recipe App 을 만들때 API, Json, async 등 다루면서 앞으로 배워야될 점들이 많다고 느겼습니다.
 
-특히, Node.js 설치, parcel builder 를 사용하여 localhost 환경에서 개발 진행 했엇는데, 학습량이 많아져서 많은 시간이 필요햇습니다.
-
-git, Markdown 사용도 새로 배우는것이라 많은 시행 착오를 겪어야만 했습니다.
+SPA 기반 project 로 넘어가기 전에 좀더 JS 에 집중하여 기본을 다질 수 있는 projects 이었던거 같습니다.
 
 ### 극복과정
 
-기술 블로그 검색, bug 가 발생 할때는 구글링, stackoverflow, 유튜브 등 많은 검색을 통해 해결 하였습니다.
+유튜브 체널 (Florin Pop) 의 Tutorial 영상을 주로 참조하여 code 를 작성하였으나, 기술 블로그나, MDN 문서를 통해 보다 자세하고 기본적인 JS 를 기록하며, 또한 많은 CSS 관련 자료 내용을 검색하여 Jacob's Devlog 에 기록하며 배워 갔습니다.
 
-Notion 으로 노트테이킹 하다가, 기술 블로그에 내용을 정리하며서 한번 더 복습하면서 기초 과정을 다졌습니다.
 
 ### 개선점
 
-앞으로 배워야 할께 엄청 많아서 막막하지만 FE 특성상 visual 적으로 수정된 부분이 고쳐지고 하나씩 만들어 가는 과정이 재미 있었습니다.
+좀더 Deep dive JS 할 수 있게 MDN 문서나 기타 검색 자료들을 잘 정리해서 위해 사용된 code 내용의 기능들을 숙지 할 수 있도록 계속 복습 하기.
 
-- 수정 및 버전업 개선 사항 예정
+- 수정 및 업데이트 사항
 
-  - 반응형 페이지 업데이트
+  - Countdown APP: 반응형 페이지, 기준이 되는 new year를 변경할 수 있는 버튼 및 추가 페이지 업데이트
 
-  - 로그인 페이지 구현 및 로그인 기능 등 추가 업데이트
+  - Quiz APP: 틀린 문제가 어떤것인지 답안 페이지 추가, 문제 결과를 공유 할 수 있는 버튼(예: 카카오로 공유하기) 생성하기
+
+  - Random Recipe: 반응속도 개선, IOS 기반 기기(아이폰, 아이패드) 에서 잘 작동되지 않는 부분 bug fix
 
 ## 4.Code
 
-- [Github 바로가기..](https://github.com/jacobkosmart/12.Apr.21_Subway_JS_CSS){:target="\_blank"}
+- [Countdown APP 바로가기..](https://github.com/jacobkosmart/8.May.21_Countdown_Vanilla-JS){:target="\_blank"}
 
-- [Site로 바로가기..](https://subway.jacobko.info/){:target="\_blank"}
+- [Quiz APP 바로가기..](https://github.com/jacobkosmart/24.May.21_QuizApp_Vanilla-JS){:target="\_blank"}
+
+- [Random Recipe 바로가기..](https://github.com/jacobkosmart/28.May.21_randomRecipe_Vanilla-JS){:target="\_blank"}
+
+
