@@ -1,6 +1,22 @@
-# 최대점수 구하기 - DFS
+---
+title: "51.최대점수를 구하기 - DFS"
+excerpt: "Algorithm (JS)_Advance"
+
+categories:
+  - Algorithm_Advance
+tags:
+  - [Algorithm, JavaScript]
+
+toc: true
+toc_sticky: true
+---
+
+---
+
+
 
 ##  🔍 문제 
+
 이번  정보올림피아드대회에서  좋은  성적을  내기  위하여  현수는  선생님이  주신  N개의  문제를 풀려고  합니다.  
 
 각  문제는  그것을  풀었을  때  얻는  점수와  푸는데  걸리는  시간이  주어지게  됩니다.  
