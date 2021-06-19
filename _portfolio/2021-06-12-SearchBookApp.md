@@ -21,8 +21,9 @@ gallery:
 [![btn](https://user-images.githubusercontent.com/28912774/118504277-55440380-b766-11eb-8730-3d6978b073c4.png)](https://book.jacobko.info/){:target="\_blank"}
 
 
-<img src = "https://github.com/jacobkosmart/12.-June.21_SearchBookApp_VueJS/blob/98fbbde52d92f7ccad9fe2040bd93526cfac6a76/src/assets/Animation1.gif" width ="100%" /> 
-<img src = "https://github.com/jacobkosmart/12.-June.21_SearchBookApp_VueJS/blob/98fbbde52d92f7ccad9fe2040bd93526cfac6a76/src/assets/Animation2.gif" width ="100%" />
+
+<img src = "https://github.com/jacobkosmart/jacobkosmart.github.io/blob/b926232574b4def767a787a7ae5492cc5a9ed25f/assets/images/port/SearchBook/Animation1.gif" width ="50%" /> 
+<img src = "https://github.com/jacobkosmart/jacobkosmart.github.io/blob/b926232574b4def767a787a7ae5492cc5a9ed25f/assets/images/port/SearchBook/Animation2.gif" width ="50%" />
 
 
 # 💻 1.프로젝트 소개
