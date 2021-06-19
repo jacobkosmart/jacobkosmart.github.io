@@ -57,10 +57,10 @@ gallery:
 
 # 3. App Structure 
 
-![appStructure1](https://github.com/jacobkosmart/12.-June.21_SearchBookApp_VueJS/blob/98fbbde52d92f7ccad9fe2040bd93526cfac6a76/src/assets/App%20Structure.jpg)
+![appStructure1](/assets/images/port/SearchBook/AppStructure.jpg)
 
 
-![appStructure2](https://github.com/jacobkosmart/12.-June.21_SearchBookApp_VueJS/blob/c7813705cce16315f26e3f055db54e5c47a3cb88/src/assets/network%20serverless.jpg)
+![appStructure2](/assets/images/port/SearchBook/networkServerless.jpg)
 
 
 ## ✏️ 4.소감
