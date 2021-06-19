@@ -22,6 +22,10 @@ gallery:
 
 
 
+![animation1](https://github.com/jacobkosmart/jacobkosmart.github.io/blob/b926232574b4def767a787a7ae5492cc5a9ed25f/assets/images/port/SearchBook/Animation1.gif)
+
+![animation2](https://github.com/jacobkosmart/jacobkosmart.github.io/blob/b926232574b4def767a787a7ae5492cc5a9ed25f/assets/images/port/SearchBook/Animation2.gif)
+
 <img src = "https://github.com/jacobkosmart/jacobkosmart.github.io/blob/b926232574b4def767a787a7ae5492cc5a9ed25f/assets/images/port/SearchBook/Animation1.gif" width ="50%" /> 
 <img src = "https://github.com/jacobkosmart/jacobkosmart.github.io/blob/b926232574b4def767a787a7ae5492cc5a9ed25f/assets/images/port/SearchBook/Animation2.gif" width ="50%" />
 
@@ -30,42 +34,34 @@ gallery:
 
 ## ⌨️ 사용기술 및 언어
 
-- Vanilla JavaScript
-- HTML
-- CSS
+- Vue.JS
+- Vuex
+- Vue Router
+- SCSS
+- BootStrap
+- Netlify serverless
+- Kakao Open API
 
 ## ⏰ 개발 기간
 
-2021-05-08 ~ 21-05-28
+2021-05-29 ~ 2021-06-12
+
 
 # 🗒 2.프로젝트 내용
 
 ## 주요 기능
 
-### - Countdown
+- 책 제목을 검색 하여 책 표지, 글쓴이, 출간일, 출판사, 정가, isbn, 자세한 도서정보 링크 페이지를 제공
 
-- 현재 시간 부터 올해 남은 시간 까지 날짜, 시간, 분, 초 단위로 나타냄
+- 검색은 한번에 최대 50개 도서 까지 가능, 검색 필터는 accuracy (정확도), latest (최신) 순서별로 검색 
 
-### - Quiz
+- Fully responsive design (디바이스 해상도에 따라 반응형 디자인) 
 
-- 객관식 5문제를 하나씩 풀어가며 최종으로 몇개를 맞추었는지 스코어 계산 출력
-
-- 처음으로 돌아갈 수 있는 버트 클릭 시, 맨 처음 페이지로 돌아감
-
-### - Random Recipe
-
-- Mobile frame 에 맞게 app 제작
-
-- The meal API 비동기 연결하여 random recipe 출력
-
-- 좋아요 버튼을 누르면 favorite meals 에 추가
-
-- recipe 클릭 시, 상세 정보 출력 (youtube, ingredients, details)
-
-- 검색창에 (예: rice) 입력 시, 해당되는 recipe 검색됨
+- 자세한 도서정보 버튼 클릭 시, 외부의 다음 사이트의 북 검색 페이지로 자동 링크 
 
 
 {% include gallery %}
+
 
 ## ✏️ 3.소감
 
@@ -96,7 +92,7 @@ SPA 기반 project 로 넘어가기 전에 좀더 JS 에 집중하여 기본을 
 
 ## 4.Code
 
-- [Countdown APP 바로가기..](https://github.com/jacobkosmart/8.May.21_Countdown_Vanilla-JS){:target="\_blank"}
+- [Github](https://github.com/jacobkosmart/12.June.21_SearchBookApp_VueJS){:target="\_blank"}
 
 - [Quiz APP 바로가기..](https://github.com/jacobkosmart/24.May.21_QuizApp_Vanilla-JS){:target="\_blank"}
 
