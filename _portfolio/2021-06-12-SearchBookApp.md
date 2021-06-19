@@ -18,7 +18,7 @@ gallery:
 ---
 
 
-[![btn](https://user-images.githubusercontent.com/28912774/118504277-55440380-b766-11eb-8730-3d6978b073c4.png)](https://book.jacobko.info/){:target="\_blank"}
+[![btn](https://user-images.githubusercontent.com/28912774/118504277-55440380-b766-11eb-8730-3d6978b073c4.png)](https://book.jacobko.info/){:target="_blank"}
 
 
 # 💻 1.프로젝트 소개
@@ -90,8 +90,8 @@ Vue.js , vuex, vue router, axios official page 등 공식문서를 중심으로 
 
 ## 4.Code
 
-- [Github](https://github.com/jacobkosmart/12.June.21_SearchBookApp_VueJS){:target="\_blank"}
+- [Github](https://github.com/jacobkosmart/12.June.21_SearchBookApp_VueJS){:target="_blank"}
 
-- [Book Search App 바로가기..](https://book.jacobko.info/#/){:target="\_blank"}
+- [Book Search App 바로가기..](https://book.jacobko.info/#/){:target="_blank"}
 
 
