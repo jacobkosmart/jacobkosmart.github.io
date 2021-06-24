@@ -1,4 +1,17 @@
-# 조합의  경우수 (메모이제이션) 
+---
+title: "56.조합의 경우수 (Memoization) "
+excerpt: "Algorithm (JS)_Advance"
+
+categories:
+  - Algorithm_Advance
+tags:
+  - [Algorithm, JavaScript]
+
+toc: true
+toc_sticky: true
+---
+
+---
 
 ##  🔍 문제 
 
