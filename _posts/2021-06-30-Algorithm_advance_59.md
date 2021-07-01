@@ -1,5 +1,5 @@
 ---
-title: "59.주들의 조합 "
+title: "59.수들의 조합 "
 excerpt: "Algorithm (JS)_Advance"
 
 categories:
