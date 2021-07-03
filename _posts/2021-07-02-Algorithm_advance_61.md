@@ -1,5 +1,5 @@
 ---
-title: "61.경로 탐색 (노드개수가 적을 때) -  그래프, DFS "
+title: "61.경로 탐색 - 인접행렬(노드개수가 적을 때) -  그래프, DFS "
 excerpt: "Algorithm (JS)_Advance"
 
 categories:
