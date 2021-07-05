@@ -1,5 +1,5 @@
 ---
-title: "22.최대 매출 - Slicing Window"
+title: "22.최대 매출 - Sliding Window"
 excerpt: "Algorithm (JS)_Advance"
 
 categories:
