@@ -1,4 +1,19 @@
-# 섬나라 아일랜드 - DFS
+---
+title: "67.섬나라 아일랜드 - BFS"
+excerpt: "Algorithm (JS)_Advance"
+
+categories:
+  - Algorithm_Advance
+tags:
+  - [Algorithm, JavaScript]
+
+toc: true
+toc_sticky: true
+---
+
+---
+
+
 
 ##  🔍 문제 
 N*N의  섬나라  아일랜드의  지도가  격자판의  정보로  주어집니다.  
