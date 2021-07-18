@@ -3,7 +3,7 @@ title: "Bootstrap v5.0"
 excerpt: "Bootstrap"
 
 categories:
-  - CSS
+  - UI
 
 toc: true
 toc_sticky: true

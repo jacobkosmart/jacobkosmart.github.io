@@ -1,6 +1,6 @@
 ---
-title: "SCSS 정리"
-excerpt: "SCSS"
+title: "Material UI for react"
+excerpt: "Material UI"
 
 categories:
   - UI
