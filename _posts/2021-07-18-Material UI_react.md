@@ -508,7 +508,7 @@ function App() {
               <Paper style={ {height: 75, width:'100%',} }/>
             </Grid>
             <Grid item xs={3} sm={6}>
-              <Paper style={{ height: 75, width: '100%',} }/>
+              <Paper style={ {height: 75, width: '100%',} }/>
             </Grid>
             <Grid item xs={3} sm={6}>
               <Paper style={ {height: 75, width:'100%',} }/>
@@ -652,7 +652,7 @@ function App() {
               <Paper style={ {height: 75, width:'100%',} }/>
             </Grid>
             <Grid item xs={3} sm={6}>
-              <Paper style={{ height: 75, width: '100%',} }/>
+              <Paper style={ {height: 75, width: '100%',} }/>
             </Grid>
             <Grid item xs={3} sm={6}>
               <Paper style={ {height: 75, width:'100%',} }/>
