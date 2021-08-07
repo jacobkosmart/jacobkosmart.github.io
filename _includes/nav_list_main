@@ -29,7 +29,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "UI" %}
-                        <li><a href="/categories/UI" class="">UI ({{category[1].size}})</a></li>
+                        <li><a href="/categories/UI" class="">HTML & CSS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul> 
