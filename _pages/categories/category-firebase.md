@@ -1,7 +1,7 @@
 ---
-title: "Firebase"
+title: "firebase"
 layout: archive
-permalink: categories/Firebase
+permalink: categories/firebase
 author_profile: true
 sidebar_main: true
 ---
