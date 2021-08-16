@@ -60,4 +60,4 @@ function solution(participant, completion) {
 
 ## Reference
 
-https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript
+[https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript](https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript)
