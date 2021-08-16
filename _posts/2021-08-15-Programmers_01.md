@@ -55,9 +55,6 @@ function solution(participant, completion) {
 }
 ```
 
-![image](https://user-images.githubusercontent.com/28912774/129476779-b9ee8f2e-e3f7-40e8-aa81-8d995644a905.png)
-![image](https://user-images.githubusercontent.com/28912774/129476784-112794e6-e5b1-4a4c-afcd-a7a9c322eace.png)
-
 ## Reference
 
 [https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript](https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript)
