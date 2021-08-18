@@ -80,4 +80,4 @@ function solution(cloths) {
 
 ## Reference
 
-[https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript](https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript)
+[https://programmers.co.kr/learn/courses/30/lessons/42578](https://programmers.co.kr/learn/courses/30/lessons/42578)
