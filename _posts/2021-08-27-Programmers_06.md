@@ -79,6 +79,8 @@ let truck_weights = [7, 4, 5, 6];
 console.log(solution(bridge_length, weight, truck_weights));
 ```
 
+변경 테스트
+
 ## Reference
 
 [https://programmers.co.kr/learn/courses/30/lessons/42583](https://programmers.co.kr/learn/courses/30/lessons/42583)
