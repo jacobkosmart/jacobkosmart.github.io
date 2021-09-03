@@ -1,3 +1,1 @@
-const array = ["🐶", "🐱", "🐈", "🐶", "🦮", "🐱"];
-
-console.log([...new Set(array)]);
+console.log("hello");
