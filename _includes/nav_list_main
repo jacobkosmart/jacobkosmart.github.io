@@ -105,6 +105,13 @@
                     {% endif %}
                 {% endfor %}
             </ul> 
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "12_Factor_App_Methodology" %}
+                        <li><a href="/categories/12_Factor_App_Methodology" class="">12 Factor App ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul> 
       </li>
     </ul>
 </nav>
