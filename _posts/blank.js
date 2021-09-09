@@ -1,28 +1,20 @@
-function solution(number, k) {
-  let stack = [];
-  let answer = "";
+function solution(people, limit) {
+  let answer = 0;
+  // 무거운 순서대로 내림 차순 정렬
+  people = people.sort((a, b) => b - a);
 
-  // number 탐색 시작
-  for (let i = 0; i < number.length; i++) {
-    // loop 돌때 마다 number 를 임시로 el 지정
-    let el = number[i];
-
-    //  stack의 값과 비교해서 stack 에 가장 위에 있는 숫자와 비교 할때 클 경우 그 숫자를 pop
-    while (k > 0 && stack[stack.length - 1] < el) {
-      stack.pop();
-      k--;
+  for (let i = 0, j = people.length - 1; i <= j; i++) {
+    // 2명 밖에 탈 수 없기 때문에 가장 많이 탈 수 있는 방법은 가장 무거운 사람과 가장 가벼운 사람이 같이 타는 방법 뿐이라서 i 와 j 마지막 부분 비교해서 그 합이 limit 보다 작게되면 2명 탈 수 있는 경우에 수가 됨
+    if (people[i] + people[j] <= limit) {
+      // if 조건에 만족할 경우에는 사람을 한명 빼야 되기 때문에 j--
+      j--;
     }
-    // el 이 stack 에 있는 값보다 크기 때문에 stack 에 push
-    stack.push(el);
+    // 무거운 사람부터 1명씩 보트가 필요하니까 보트 count ++
+    answer++;
   }
-
-  // k 자리수만큼 잘라서 stack 에서 글자 꺼내기
-  stack.splice(stack.length - k, k);
-  // stack 에서 꺼낸 숫자를 join 으로 합치기
-  answer = stack.join("");
   return answer;
 }
 
-let number = "1231234";
-let k = 3;
-console.log(solution(number, k));
+let people = [70, 50, 80, 50];
+let limit = 100;
+console.log(solution(people, limit));
