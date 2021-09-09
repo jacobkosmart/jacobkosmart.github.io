@@ -1,27 +1,28 @@
-function solution(n, lost, reserve) {
-  let answer;
-  // 진짜 체육복이 없는 학생들의 번호 filter
-  let realLost = lost.filter((v) => !reserve.includes(v));
-  // 진짜 체육복을 두개 가지고 있는 학생들의 번호 filter
-  let realReserve = reserve.filter((v) => !lost.includes(v));
+function solution(number, k) {
+  let stack = [];
+  let answer = "";
 
-  // 전체 학생 수에서 체육복이 없고 빌리지도 못한 학생 수 빼기
-  answer =
-    n -
-    realLost.filter((v) => {
-      // 체육복이 두개인 학생들 중 차이가 절대값으로 1개거나 없는 학생 수 (앞뒤로 하나씩 이니까 절대값을 사용)
-      let noCloths = realReserve.find((a) => Math.abs(v - a) <= 1);
-      // 만약 black 가 없을 경우에 체육복을 아무도 갖지 목하기 때문에 바로 return
-      if (!noCloths) return true;
-      // 그리고 나서 빌려 줬지 때문에 lost 에서 제외 및 reserve 에서도 빌려준 학생 제외 시키기
-      realReserve = realReserve.filter((r) => r !== noCloths);
-    }).length;
+  // number 탐색 시작
+  for (let i = 0; i < number.length; i++) {
+    // loop 돌때 마다 number 를 임시로 el 지정
+    let el = number[i];
 
+    //  stack의 값과 비교해서 stack 에 가장 위에 있는 숫자와 비교 할때 클 경우 그 숫자를 pop
+    while (k > 0 && stack[stack.length - 1] < el) {
+      stack.pop();
+      k--;
+    }
+    // el 이 stack 에 있는 값보다 크기 때문에 stack 에 push
+    stack.push(el);
+  }
+
+  // k 자리수만큼 잘라서 stack 에서 글자 꺼내기
+  stack.splice(stack.length - k, k);
+  // stack 에서 꺼낸 숫자를 join 으로 합치기
+  answer = stack.join("");
   return answer;
 }
 
-let n = 5;
-let lost = [2, 4];
-let reserve = [3];
-
-console.log(solution(n, lost, reserve));
+let number = "1231234";
+let k = 3;
+console.log(solution(number, k));
