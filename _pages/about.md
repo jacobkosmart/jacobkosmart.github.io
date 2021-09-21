@@ -22,5 +22,6 @@ share: false
 
 ## 🖥 Portfolio & Resume
 
-👉 [포트폴리오 바로가기](https://jacobko.info/)
+👉 [포트폴리오 바로가기](https://portfolio.jacobko.info/)
+
 👉 [이력서 바로가기](https://jacobko.notion.site/Jacob-Taehyun-Ko-f375245e8e264a30bc366ede47814809)
