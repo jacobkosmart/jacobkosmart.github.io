@@ -97,6 +97,21 @@
                     {% endif %}
                 {% endfor %}
             </ul> 
+        <span class="nav__sub-title">App</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "flutter" %}
+                    <li><a href="/categories/flutter" class="">Flutter ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul> 
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "dart" %}
+                        <li><a href="/categories/dart" class="">Dart ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul> 
         <span class="nav__sub-title">Tools & Tips</span>
             <ul>
                 {% for category in site.categories %}
