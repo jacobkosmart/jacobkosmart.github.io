@@ -7,31 +7,26 @@
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label }}</label>
    <ul class="nav__items" id="category_tag_menu">
       <!--전체 글 수-->
-      <li>
-          💻 Total Posts ({{sum}}) 
-      </li>
-      <li>
-        <span class="nav__sub-title">Algorithm (JS)</span>
+    <li>
+        💻 Total Posts ({{sum}}) 
+    </li>
+    <li>
+        <span class="nav__sub-title">App</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "flutter" %}
+                    <li><a href="/categories/flutter" class="">Flutter ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul> 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm_Basic" %}
-                        <li><a href="/categories/Algorithm_Basic" class="">Basic ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Algorithm_Advance" %}
-                        <li><a href="/categories/Algorithm_Advance" class="">Advance ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul> 
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "programmers" %}
-                        <li><a href="/categories/programmers" class="">Programmers ({{category[1].size}})</a></li>
+                    {% if category[0] == "dart" %}
+                        <li><a href="/categories/dart" class="">Dart ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul> 
+    
         <span class="nav__sub-title">Front-end</span>
             <ul>
                 {% for category in site.categories %}
@@ -97,21 +92,28 @@
                     {% endif %}
                 {% endfor %}
             </ul> 
-        <span class="nav__sub-title">App</span>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "flutter" %}
-                    <li><a href="/categories/flutter" class="">Flutter ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul> 
+            <span class="nav__sub-title">Algorithm (JS)</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "dart" %}
-                        <li><a href="/categories/dart" class="">Dart ({{category[1].size}})</a></li>
+                    {% if category[0] == "Algorithm_Basic" %}
+                        <li><a href="/categories/Algorithm_Basic" class="">Basic ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Algorithm_Advance" %}
+                        <li><a href="/categories/Algorithm_Advance" class="">Advance ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul> 
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "programmers" %}
+                        <li><a href="/categories/programmers" class="">Programmers ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul> 
+
         <span class="nav__sub-title">Tools & Tips</span>
             <ul>
                 {% for category in site.categories %}
