@@ -11,7 +11,7 @@
         💻 Total Posts ({{sum}}) 
     </li>
     <li>
-        <span class="nav__sub-title">App</span>
+        <span class="nav__sub-title">Flutter</span>
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "flutter" %}
@@ -26,7 +26,14 @@
                     {% endif %}
                 {% endfor %}
             </ul> 
-    
+        <span class="nav__sub-title">iOS</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "ios" %}
+                    <li><a href="/categories/ios" class="">iOS ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul> 
         <span class="nav__sub-title">Front-end</span>
             <ul>
                 {% for category in site.categories %}
