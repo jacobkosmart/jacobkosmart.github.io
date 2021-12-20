@@ -43,7 +43,7 @@
         </ul> 
         <ul>
             {% for category in site.categories %}
-                {% if category[0] == "firebase-ios" %}
+                {% if category[0] == "firebaseios" %}
                     <li><a href="/categories/firebase-ios" class="">FireBase ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}

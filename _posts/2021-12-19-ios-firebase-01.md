@@ -3,7 +3,7 @@ title: "Firebase Authentication"
 excerpt: "Firebase in iOS"
 
 categories:
-  - firebase-ios
+  - firebaseios
 
 toc: true
 toc_sticky: true
