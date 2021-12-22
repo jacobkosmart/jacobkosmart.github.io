@@ -126,7 +126,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ```
 
-#### 로그아웃 설정
+### 로그아웃 설정
 
 ```swift
 // in MainViewController.swift
@@ -148,7 +148,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ## 🔷 Google 로그인/로그아웃
 
-#### 사전작업
+### 사전작업
 
 - 먼저 firebase 사이트에서 Google 을 sign-in-method 제공업체로 등록 합니다
 
@@ -173,7 +173,7 @@ end
 
 ![image](https://user-images.githubusercontent.com/28912774/147018966-7283180c-443c-4b72-908b-c1e48bf4b670.png)
 
-#### Google SignIn delegate protocol 추가
+### Google SignIn delegate protocol 추가
 
 > Google 로 로그인 official reference - https://firebase.google.com/docs/auth/ios/google-signin?hl=ko#swift
 
