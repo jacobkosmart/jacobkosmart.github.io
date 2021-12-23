@@ -181,7 +181,7 @@ end
 
 ![image](https://user-images.githubusercontent.com/28912774/147019998-1d89f276-9084-493c-afdd-56cfec3f0554.png)
 
-##### 변경된 중요 checkPoint (v.6.0.0 이후)
+#### 변경된 중요 checkPoint (v.6.0.0 이후)
 
 📌 **GIDSignIn sharedInstance** is now a class property.
 
