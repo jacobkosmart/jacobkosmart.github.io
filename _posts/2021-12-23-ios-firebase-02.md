@@ -348,8 +348,6 @@ override func tableView(_ tableView: UITableView, commit editingStyle: UITableVi
 
 creditCard-iOS-practice code - [https://github.com/jacobkosmart/creditCard-iOS-practice](https://github.com/jacobkosmart/creditCard-iOS-practice)
 
-Jacob's DevLog - [https://jacobko.info/firebaseios/ios-firebase-02/](https://jacobko.info/firebaseios/ios-firebase-02/)
-
 LEEO TIL Dev Log - [https://dev200ok.blogspot.com/2020/09/ios-kingfisher.html](https://dev200ok.blogspot.com/2020/09/ios-kingfisher.html)
 
 fastcampus - [https://fastcampus.co.kr/dev_online_iosappfinal](https://fastcampus.co.kr/dev_online_iosappfinal)
