@@ -40,19 +40,25 @@
                     <li><a href="/categories/uikit" class="">UIkit ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "swiftui" %}
+                    <li><a href="/categories/swiftui" class="">SwiftUI ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
         </ul> 
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "firebaseios" %}
-                    <li><a href="/categories/firebase-ios" class="">FireBase ({{category[1].size}})</a></li>
+                    <li><a href="/categories/firebase-ios" class="">Firebase ({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul> 
-        <span class="nav__sub-title">Front-end</span>
+        <span class="nav__sub-title">Web</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "UI" %}
-                        <li><a href="/categories/UI" class="">HTML & CSS ({{category[1].size}})</a></li>
+                        <li><a href="/categories/UI" class="">UI ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul> 
