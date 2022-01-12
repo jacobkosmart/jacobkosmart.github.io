@@ -11,21 +11,6 @@
         💻 Total Posts ({{sum}}) 
     </li>
     <li>
-        <span class="nav__sub-title">Flutter</span>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "flutter" %}
-                    <li><a href="/categories/flutter" class="">Flutter ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul> 
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "dart" %}
-                        <li><a href="/categories/dart" class="">Dart ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul> 
         <span class="nav__sub-title">iOS</span>
         <ul>
             {% for category in site.categories %}
@@ -54,6 +39,21 @@
                 {% endif %}
             {% endfor %}
         </ul> 
+        <span class="nav__sub-title">Flutter</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "flutter" %}
+                    <li><a href="/categories/flutter" class="">Flutter ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul> 
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "dart" %}
+                        <li><a href="/categories/dart" class="">Dart ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul> 
         <span class="nav__sub-title">Web</span>
             <ul>
                 {% for category in site.categories %}
