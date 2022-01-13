@@ -17,7 +17,8 @@
     "struct",
     "Unmount",
     "Unmounting",
-    "xcworkspace"
+    "xcworkspace",
+    "Youtuber"
   ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true
