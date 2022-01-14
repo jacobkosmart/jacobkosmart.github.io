@@ -1,6 +1,8 @@
 {
   "editor.fontFamily": "'hack','D2Coding','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "cSpell.words": [
+    "autoclosure",
+    "autoescape",
     "CARCO",
     "composability",
     "Crashlytics",
