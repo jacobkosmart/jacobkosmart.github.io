@@ -34,6 +34,13 @@
         </ul> 
         <ul>
             {% for category in site.categories %}
+                {% if category[0] == "animation" %}
+                    <li><a href="/categories/animation" class="">Animation ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul> 
+        <ul>
+            {% for category in site.categories %}
                 {% if category[0] == "firebaseios" %}
                     <li><a href="/categories/firebase-ios" class="">Firebase ({{category[1].size}})</a></li>
                 {% endif %}
