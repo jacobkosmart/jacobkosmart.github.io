@@ -1,5 +1,5 @@
 ---
-title: "SwiftUI_Animation"
+title: "SwiftUI Animation"
 layout: archive
 permalink: categories/animation
 author_profile: true
