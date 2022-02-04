@@ -151,6 +151,13 @@
         <span class="nav__sub-title">Tools & Tips</span>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "cs" %}
+                        <li><a href="/categories/cs" class="">CS ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul> 
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Markdown" %}
                         <li><a href="/categories/Markdown" class="">Markdown ({{category[1].size}})</a></li>
                     {% endif %}
