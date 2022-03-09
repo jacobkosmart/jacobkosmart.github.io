@@ -133,6 +133,28 @@
                     {% endif %}
                 {% endfor %}
             </ul> 
+            <span class="nav__sub-title">Algorithm (Swift)</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "swift_lv1" %}
+                        <li><a href="/categories/swift_lv1" class="">Lv1. ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            <ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "swift_lv2" %}
+                        <li><a href="/categories/swift_lv2" class="">Lv2. ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            <ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "swift_lv3" %}
+                        <li><a href="/categories/swift_lv3" class="">Lv3. ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            <ul>
             <span class="nav__sub-title">Algorithm (JS)</span>
             <ul>
                 {% for category in site.categories %}
@@ -155,28 +177,6 @@
                 {% endfor %}
             </ul> 
 
-        <span class="nav__sub-title">Algorithm (Swift)</span>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "swift_lv1" %}
-                    <li><a href="/categories/swift_lv1" class="">Lv1. ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        <ul>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "swift_lv2" %}
-                    <li><a href="/categories/swift_lv2" class="">Lv2. ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        <ul>
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "swift_lv3" %}
-                    <li><a href="/categories/swift_lv3" class="">Lv3. ({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        <ul>
 
         <span class="nav__sub-title">Tools & Tips</span>
             <ul>
