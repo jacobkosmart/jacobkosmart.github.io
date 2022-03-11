@@ -35,17 +35,24 @@ share: false
 
 ### 🔷 안녕날씨 (Android)
 
+<p>
 <img src="https://play-lh.googleusercontent.com/Zm_3w8ZB9et7zn_kazN318RAjIjMU_PICIOSvR59-L-ilaLQ0lpP6afisguSFHLa1-U=w480-h960-rw" alt="안녕날씨" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;">
 
 <a href='https://play.google.com/store/apps/details?id=info.jacobko.weather_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'  style="border-radius: 13px; width: 250px; height: 83px;"/></a>
+
+</p>
 
 Open Weather API 기반으로 현재 위치 기반의 기온, 날씨정보, 대기질지수, 미세먼지, 초미세먼지의 정보를 제공합니다
 
 ### 🔷 BST(비만도 / 스톱워치 / 할일작성) (Android)
 
+<p>
+
 <img src="https://play-lh.googleusercontent.com/fiL717ywiDKaS5n67ELecLOZoqX96khAtwA9SCmOLPbKxdH0oAqleAManSeCdgV59SMe=w480-h960-rw" alt="BST" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;">
 
 <a href='https://play.google.com/store/apps/details?id=info.jacobko.bst&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'  style="border-radius: 13px; width: 250px; height: 83px;" /></a>
+
+</p>
 
 1. 비만도 체크: 본인의 키와 몸무게를 입력하면 비만도를 계산하여 나타나게 됩니다
 
