@@ -20,7 +20,7 @@ share: false
 `Github` : <https://github.com/jacobkosmart>  
 `Youtube` : [Jacob Coding Youtube Channel](https://www.youtube.com/channel/UCXXutxMvNx4EKXB-uQnm2oQ)
 
-## 🖥 App Projects
+## 📱 App Projects
 
 ### 🔷 멸종위기 동물사전 (iOS)
 
