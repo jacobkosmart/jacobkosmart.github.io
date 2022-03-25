@@ -25,7 +25,7 @@ share: false
 ### 🔷 Awesome KR (iOS)
 
 <p>
-<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/5a/8b/3c/5a8b3cd1-a395-bc74-e333-57cb8da2faec/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/540x540bb.jpg&h=40b8b10bf29c38620e21706568854b98" alt="Awesome KR" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;">
+<img src="https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/5a/8b/3c/5a8b3cd1-a395-bc74-e333-57cb8da2faec/AppIcon-0-1x_U007emarketing-0-10-0-85-220.png/540x540bb.jpg" alt="Awesome KR" style="width: 170px; height: 170px; border-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;">
 
 <a href="https://apps.apple.com/us/app/awesome-kr/id1614941403?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1647561600&h=6eb6dce23cc47c03233ed4672df91aa6" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
 
