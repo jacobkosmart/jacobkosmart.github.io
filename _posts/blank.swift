@@ -1,19 +1,21 @@
 import Foundation
 import SwiftUI
 
-func solution(_ num:Int) -> Int {
-	var number = num
+func solution(_ n:Int) -> Int {
+	var isPrime = true
 	var count = 0
 
-	while number != 1 && count <= 500 {
-		if number % 2 == 0 {
-			number = number / 2
-		} else {
-			number = number * 3 + 1
+	for i in 2...n {
+		isPrime = true
+		for j in 2...Int((sqrt(Double(n)))) + 1 {
+			if i != j && i % j == 0 {
+				isPrime = false
+				break
+			}
 		}
-		count += 1
+		count = isPrime ? count + 1 : count
 	}
-  return number == 1 ? count : -1
+  return count
 }
 
-print(solution(6)) // 8
+print(solution(5)) // 4
