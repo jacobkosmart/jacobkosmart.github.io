@@ -1,23 +1,8 @@
 import Foundation
 import SwiftUI
 
-func solution(_ s:String) -> String {
-	var count = 0
-	var result = ""
-
-	for letter in s {
-		if letter == " " {
-			count = -1
-			result += String(letter)
-		} else if count % 2 == 0 {
-			result += letter.uppercased()
-		} else {
-			result += letter.lowercased()
-		}
-		count += 1
-	}
-
-	return result
+func solution(_ x:Int, _ n:Int) -> [Int64] {
+	return Array(1...n).map { Int64($0 * x) }
 }
 
-print(solution("try hello world")) // TrY HeLlO WoRlD
+print(solution(2, 5)) // [2, 4, 6, 8, 10]
