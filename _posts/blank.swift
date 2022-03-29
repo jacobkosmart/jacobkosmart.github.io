@@ -1,13 +1,9 @@
 import Foundation
 import SwiftUI
 
-func solution(_ arr:[Int]) -> [Int] {
-	var result = arr
-
-	guard let index = arr.firstIndex(of: arr.min() ?? 0) else { return [] }
-	result.remove(at: index)
-
-  return result.isEmpty ? [-1] : result
+func solution(_ arr1:[[Int]], _ arr2:[[Int]]) -> [[Int]] {
+	
+  return zip(arr1, arr2).map { zip($0, $1).map { $0 + $1}}
 }
 
-print(solution([4, 3, 2, 1])) // [4, 3, 2]
+print(solution([[1, 2], [2, 3]], [[3, 4], [5, 6]])) // [[4, 6], [7, 9]]
