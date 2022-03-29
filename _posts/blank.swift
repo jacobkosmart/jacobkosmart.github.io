@@ -1,21 +1,13 @@
 import Foundation
 import SwiftUI
 
-func solution(_ n:Int) -> Int {
-	var isPrime = true
-	var count = 0
+func solution(_ arr:[Int]) -> [Int] {
+	var result = arr
 
-	for i in 2...n {
-		isPrime = true
-		for j in 2...Int((sqrt(Double(n)))) + 1 {
-			if i != j && i % j == 0 {
-				isPrime = false
-				break
-			}
-		}
-		count = isPrime ? count + 1 : count
-	}
-  return count
+	guard let index = arr.firstIndex(of: arr.min() ?? 0) else { return [] }
+	result.remove(at: index)
+
+  return result.isEmpty ? [-1] : result
 }
 
-print(solution(5)) // 4
+print(solution([4, 3, 2, 1])) // [4, 3, 2]
