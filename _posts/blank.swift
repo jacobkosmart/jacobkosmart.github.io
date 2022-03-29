@@ -1,23 +1,19 @@
 import Foundation
 import SwiftUI
 
-func solution(_ n:Int, _ m:Int) -> [Int] {
-  var num1 = min(n, m)
-	var num2 = max(n, m)
-	var divisor = 2
-	var gcd = 1
+func solution(_ num:Int) -> Int {
+	var number = num
+	var count = 0
 
-	while divisor <= num1 {
-		if num1 % divisor == 0 && num2 % divisor == 0 {
-			num1 = num1 / divisor
-			num2 = num2 / divisor
-			gcd *= divisor
-			divisor = 1
+	while number != 1 && count <= 500 {
+		if number % 2 == 0 {
+			number = number / 2
+		} else {
+			number = number * 3 + 1
 		}
-		divisor += 1
+		count += 1
 	}
-
-	return [gcd, gcd * num1 * num2]
+  return number == 1 ? count : -1
 }
 
-print(solution(3, 12)) // [3, 12]
+print(solution(6)) // 8
