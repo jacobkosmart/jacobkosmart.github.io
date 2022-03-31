@@ -34,6 +34,13 @@
         </ul> 
         <ul>
             {% for category in site.categories %}
+                {% if category[0] == "combine" %}
+                    <li><a href="/categories/combine" class="">Combine ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul> 
+        <ul>
+            {% for category in site.categories %}
                 {% if category[0] == "rxswift" %}
                     <li><a href="/categories/rxswift" class="">RxSwift ({{category[1].size}})</a></li>
                 {% endif %}
