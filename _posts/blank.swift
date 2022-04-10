@@ -1,9 +1,18 @@
 import Foundation
-import SwiftUI
 
-func solution(_ arr1:[[Int]], _ arr2:[[Int]]) -> [[Int]] {
-	
-  return zip(arr1, arr2).map { zip($0, $1).map { $0 + $1}}
+func solution(_ n:Int64) -> [Int] {
+  var result: [Int] = []
+  for i in String(n).reversed() {
+    guard let number = Int(String(i)) else { break }
+    result.append(number)
+  }
+  return result
 }
 
-print(solution([[1, 2], [2, 3]], [[3, 4], [5, 6]])) // [[4, 6], [7, 9]]
+
+print(solution(12345)) // [5, 4, 3, 2, 1]
+
+func solution(_ n:Int64) -> [Int] {
+    let arr = String(n).compactMap { Int(String($0)) }
+    return arr.reversed()
+}
