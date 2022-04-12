@@ -1,18 +1,12 @@
 import Foundation
 
-func solution(_ n:Int64) -> [Int] {
-  var result: [Int] = []
-  for i in String(n).reversed() {
+func solution(_ x:Int) -> Bool {
+  var sum = 0
+  for i in String(x) {
     guard let number = Int(String(i)) else { break }
-    result.append(number)
+    sum += number
   }
-  return result
+  return x % sum == 0
 }
 
-
-print(solution(12345)) // [5, 4, 3, 2, 1]
-
-func solution(_ n:Int64) -> [Int] {
-    let arr = String(n).compactMap { Int(String($0)) }
-    return arr.reversed()
-}
+print(solution(10)) // true
