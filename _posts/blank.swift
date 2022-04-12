@@ -1,12 +1,7 @@
 import Foundation
 
-func solution(_ x:Int) -> Bool {
-  var sum = 0
-  for i in String(x) {
-    guard let number = Int(String(i)) else { break }
-    sum += number
-  }
-  return x % sum == 0
+func solution(_ phone_number:String) -> String {
+    return String(repeating: "*", count: phone_number.count - 4) + phone_number.suffix(4)
 }
 
-print(solution(10)) // true
+print(solution("01033334444")) // *******4444
