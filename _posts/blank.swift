@@ -1,21 +1,22 @@
 import Foundation
 
-func solution(_ s:String, _ n:Int) -> String {
+func solution(_ strings:[String], _ n:Int) -> [String] {
+    var temp: [String] = []
+    var result: [String] = []
 
-    let alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-    var result = ""
+    // 1. 각 문자열의 n번째의 문자를 "_"와 함께 제일 앞에 붙여준다
+    for i in strings {
+        temp.append("\(i[i.index(i.startIndex, offsetBy: n)])_\(i)")
+    }
 
-    for letter in s {
-        let isUpperCase = letter.isUppercase
-        
-        if let index = alphabet.firstIndex(of: letter.lowercased()) {
-            let nIndex = index + n > 25 ? index + n - 26 : index + n
-            result += isUpperCase ? alphabet[nIndex].uppercased() : alphabet[nIndex]
-        } else {
-            result += " "
-        }
+    // 2. 오름차순으로 정렬한다
+    temp.sort()
+
+    // 3. 위에서 붙였던 "n번째 문자 _"를 다시 잘라내준다
+    for word in temp {
+        result.append(word.components(separatedBy: "_")[1])
     }
     return result
 }
 
-print(solution("AB", 1)) // "BC"
+print(solution(["sun", "bed", "car"], 1)) // ["car", "bed", "sun"]
