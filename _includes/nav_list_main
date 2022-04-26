@@ -41,6 +41,13 @@
         </ul> 
         <ul>
             {% for category in site.categories %}
+                {% if category[0] == "concurrency" %}
+                    <li><a href="/categories/concurrency" class="">Concurrency ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul> 
+        <ul>
+            {% for category in site.categories %}
                 {% if category[0] == "rxswift" %}
                     <li><a href="/categories/rxswift" class="">RxSwift ({{category[1].size}})</a></li>
                 {% endif %}
