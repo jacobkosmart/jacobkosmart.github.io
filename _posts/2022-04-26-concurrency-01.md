@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 ---
 
-## 01.Do-Catch, Try and Throws
+## Do-Catch, Try and Throws
 
 ```swift
 import SwiftUI
@@ -59,7 +59,7 @@ var body: some View {
 }
 ```
 
-Above code, an optional right as a developer we know that is returning optional because it failed to get the text but if you're sharing this code if other people are using this code that's not very clear and it might look like a bug in your app if maybe things are just not updating. Take it a step further and maybe return an error instead
+Above code, an optional right as a developer we know that is returning optional because it failed to get the text but if you're sharing this code if other people are using this code that's not ve bry clear and it might look like a bug in your app if maybe things are just not updating. Take it a step further and maybe return an error instead
 
 This is good this is a bit better in our code now the ability to check for real values and also check for errors but This is kind of a hassle for us as developers because really we want to return a result here either this function should be successful or it should fail it shouldn't really return us a title end an error. It's probably only be getting one or the other there's never really a use case where we're going to get both of these
 
