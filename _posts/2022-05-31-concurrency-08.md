@@ -353,6 +353,66 @@ ZStack {
 }
 ```
 
+### 4.globalActor
+
+Global Actor is basically actors that you can access the actor from outside of the actor so if you want to put other functions other classes, structs onto that actor you can do that using a global actor
+
+```swift
+// MARK: - Global Actor
+@globalActor struct MyFirstGlobalActor {
+static var shared = MyNewDatamanager()
+}
+
+
+// MARK: - DATAMANAGER
+actor MyNewDatamanager {
+
+func getDataFromDB() -> [String] {
+return ["One", "Two", "Three", "Four"]
+}
+}
+
+// MARK: - VIEWMODEL
+class GlobalActorBootCampViewModel: ObservableObject {
+// MARK: -  PROPERTY
+@Published var dataArray: [String] = []
+let manager = MyFirstGlobalActor.shared
+// MARK: -  INIT
+// MARK: -  FUNCTION
+@MyFirstGlobalActor
+func getData()  {
+
+// Heavy Complex Methods
+// synchronization is performed through the shared actor instance to ensure
+// mutually-exclusive access to the declaration.
+  Task {
+    let data = await manager.getDataFromDB()
+    self.dataArray = data
+  }
+}
+}
+
+// MARK: - VIEW
+struct GlobalActorBootCamp: View {
+// MARK: -  PROPERTY
+@StateObject private var vm = GlobalActorBootCampViewModel()
+// MARK: -  BODY
+var body: some View {
+ScrollView {
+  VStack {
+    ForEach(vm.dataArray, id: \.self) {
+      Text($0)
+        .font(.headline)
+    }
+  } //: VSTACK
+} //: SCROLL
+.task {
+  await vm.getData()
+}
+}
+}
+```
+
 <!-- <p align="center">
   <img height="350"  alt="스크린샷" src="">
 </p> -->
@@ -370,4 +430,4 @@ ZStack {
 
 ## 🗃 Reference
 
-SwiftUI Thinking - [https://youtu.be/-JLenSTKEcA](https://youtu.be/-JLenSTKEcA)
+SwiftUI Thinking - [https://youtu.be/UUdi137FySk](https://youtu.be/UUdi137FySk)
